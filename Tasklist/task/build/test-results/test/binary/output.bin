@@ -1,0 +1,457 @@
+[1;31m
+Start test 1[0m
+2Input an action (add, print, edit, delete, end):
+> input
+The input action is invalid
+2Input an action (add, print, edit, delete, end):
+> task
+The input action is invalid
+2Input an action (add, print, edit, delete, end):
+> 
+The input action is invalid
+2Input an action (add, print, edit, delete, end):
+> 123
+The input action is invalid
+2Input an action (add, print, edit, delete, end):
+>  
+The input action is invalid
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 2[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+	> normal
+'Input the task priority (C, H, N, L):
+> Critical
+'Input the task priority (C, H, N, L):
+> low
+'Input the task priority (C, H, N, L):
+> high
+'Input the task priority (C, H, N, L):
+>  
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2022-1-1
+Input the time (hh:mm):
+> 0:0
+/Input a new task (enter a blank line to end):
+> Happy new year!
+> 
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 3[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2021-2-29
+The input date is invalid
+Input the date (yyyy-mm-dd):
+> 2021-13-1
+The input date is invalid
+Input the date (yyyy-mm-dd):
+> 2021-12-32
+The input date is invalid
+Input the date (yyyy-mm-dd):
+
+> thisDay
+The input date is invalid
+Input the date (yyyy-mm-dd):
+>  
+The input date is invalid
+Input the date (yyyy-mm-dd):
+> 2022-1-1
+Input the time (hh:mm):
+> 0:0
+/Input a new task (enter a blank line to end):
+> Happy new year!
+> 
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 4[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2022-1-1
+Input the time (hh:mm):
+> 24:00
+The input time is invalid
+Input the time (hh:mm):
+> 12:60
+The input time is invalid
+Input the time (hh:mm):
+> 12.12
+The input time is invalid
+Input the time (hh:mm):
+> thisTime
+The input time is invalid
+Input the time (hh:mm):
+>  
+The input time is invalid
+Input the time (hh:mm):
+> 0:0
+/Input a new task (enter a blank line to end):
+> Happy new year!
+> 
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 5[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2022-1-1
+Input the time (hh:mm):
+> 0:0
+/Input a new task (enter a blank line to end):
+>      
+The task is blank
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 6[0m
+2Input an action (add, print, edit, delete, end):
+> print
+No tasks have been input
+2Input an action (add, print, edit, delete, end):
+> edit
+No tasks have been input
+2Input an action (add, print, edit, delete, end):
+	> delete
+No tasks have been input
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 7[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> C
+Input the date (yyyy-mm-dd):
+> 2023-01-24
+Input the time (hh:mm):
+> 17:00
+/Input a new task (enter a blank line to end):
+> See my dentist
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> h
+Input the date (yyyy-mm-dd):
+> 2023-01-31
+Input the time (hh:mm):
+> 17:00
+/Input a new task (enter a blank line to end):
+> Cinema: get tickets
+> Check movie reviews
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> n
+Input the date (yyyy-mm-dd):
+> 2023-01-17
+Input the time (hh:mm):
+> 19:00
+/Input a new task (enter a blank line to end):
+> Supermarket
+> Chocolates
+> flour
+
+> oranges
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> l
+Input the date (yyyy-mm-dd):
+> 2023-01-31
+Input the time (hh:mm):
+> 12:00
+/Input a new task (enter a blank line to end):
+> Buy book
+> 
+2Input an action (add, print, edit, delete, end):
+> print
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2023-01-24 | 17:00 | [101m [0m | [103m [0m |See my dentist                              |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 2  | 2023-01-31 | 17:00 | [103m [0m | [102m [0m |Cinema: get tickets                         |
+Q|    |            |       |   |   |Check movie reviews                         |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 3  | 2023-01-17 | 19:00 | [102m [0m | [101m [0m |Supermarket                                 |
+Q|    |            |       |   |   |Chocolates                                  |
+Q|    |            |       |   |   |flour                                       |
+Q|    |            |       |   |   |oranges                                     |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 4  | 2023-01-31 | 12:00 | [104m [0m | [102m [0m |Buy book                                    |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 8[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2023-01-31
+Input the time (hh:mm):
+> 17:00
+/Input a new task (enter a blank line to end):
+> Cinema: get tickets
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> l
+Input the date (yyyy-mm-dd):
+> 2023-01-17
+Input the time (hh:mm):
+> 12:00
+/Input a new task (enter a blank line to end):
+> Buy book
+> 
+2Input an action (add, print, edit, delete, end):
+	> delete
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2023-01-31 | 17:00 | [102m [0m | [102m [0m |Cinema: get tickets                         |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 2  | 2023-01-17 | 12:00 | [104m [0m | [101m [0m |Buy book                                    |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-2):
+> 1
+EThe task is deletedInput an action (add, print, edit, delete, end):
+	> delete
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2023-01-17 | 12:00 | [104m [0m | [101m [0m |Buy book                                    |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-1):
+> 1
+EThe task is deletedInput an action (add, print, edit, delete, end):
+	> delete
+No tasks have been input
+2Input an action (add, print, edit, delete, end):
+> print
+No tasks have been input
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 9[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> N
+Input the date (yyyy-mm-dd):
+> 2000-1-1
+Input the time (hh:mm):
+> 0:0
+/Input a new task (enter a blank line to end):
+
+> My task
+> 
+2Input an action (add, print, edit, delete, end):
+> edit
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2000-01-01 | 00:00 | [102m [0m | [101m [0m |My task                                     |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-1):
+> 1
+5Input a field to edit (priority, date, time, task):
+> priority
+'Input the task priority (C, H, N, L):
+> H
+The task is changed
+2Input an action (add, print, edit, delete, end):
+> edit
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2000-01-01 | 00:00 | [103m [0m | [101m [0m |My task                                     |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-1):
+> 1
+5Input a field to edit (priority, date, time, task):
+> date
+Input the date (yyyy-mm-dd):
+> 2001-2-2
+The task is changed
+2Input an action (add, print, edit, delete, end):
+> edit
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2001-02-02 | 00:00 | [103m [0m | [101m [0m |My task                                     |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-1):
+> 1
+5Input a field to edit (priority, date, time, task):
+> time
+Input the time (hh:mm):
+> 12:34
+The task is changed
+2Input an action (add, print, edit, delete, end):
+> edit
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2001-02-02 | 12:34 | [103m [0m | [101m [0m |My task                                     |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+Input the task number (1-1):
+> 1
+5Input a field to edit (priority, date, time, task):
+> task
+/Input a new task (enter a blank line to end):
+> My new task
+> 
+The task is changed
+2Input an action (add, print, edit, delete, end):
+> print
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2001-02-02 | 12:34 | [103m [0m | [101m [0m |My new task                                 |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 10[0m
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> C
+Input the date (yyyy-mm-dd):
+> 2023-01-24
+Input the time (hh:mm):
+> 17:00
+/Input a new task (enter a blank line to end):
+> See my dentist
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> h
+Input the date (yyyy-mm-dd):
+> 2023-01-31
+Input the time (hh:mm):
+> 17:00
+/Input a new task (enter a blank line to end):
+> Cinema: get tickets
+> Check movie reviews
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> n
+Input the date (yyyy-mm-dd):
+> 2023-01-17
+Input the time (hh:mm):
+> 19:00
+/Input a new task (enter a blank line to end):
+> Supermarket
+> Chocolates
+> flour
+
+> oranges
+> 
+2Input an action (add, print, edit, delete, end):
+> add
+'Input the task priority (C, H, N, L):
+> l
+Input the date (yyyy-mm-dd):
+> 2023-01-31
+Input the time (hh:mm):
+> 12:00
+/Input a new task (enter a blank line to end):
+> Buy book
+> 
+2Input an action (add, print, edit, delete, end):
+> print
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2023-01-24 | 17:00 | [101m [0m | [103m [0m |See my dentist                              |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 2  | 2023-01-31 | 17:00 | [103m [0m | [102m [0m |Cinema: get tickets                         |
+Q|    |            |       |   |   |Check movie reviews                         |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 3  | 2023-01-17 | 19:00 | [102m [0m | [101m [0m |Supermarket                                 |
+Q|    |            |       |   |   |Chocolates                                  |
+Q|    |            |       |   |   |flour                                       |
+Q|    |            |       |   |   |oranges                                     |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 4  | 2023-01-31 | 12:00 | [104m [0m | [102m [0m |Buy book                                    |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
+[1;31m
+Start test 11[0m
+2Input an action (add, print, edit, delete, end):
+> print
+Q+----+------------+-------+---+---+--------------------------------------------+
+Q| N  |    Date    | Time  | P | D |                   Task                     |
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 1  | 2023-01-24 | 17:00 | [101m [0m | [103m [0m |See my dentist                              |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 2  | 2023-01-31 | 17:00 | [103m [0m | [102m [0m |Cinema: get tickets                         |
+Q|    |            |       |   |   |Check movie reviews                         |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 3  | 2023-01-17 | 19:00 | [102m [0m | [101m [0m |Supermarket                                 |
+Q|    |            |       |   |   |Chocolates                                  |
+Q|    |            |       |   |   |flour                                       |
+Q|    |            |       |   |   |oranges                                     |
+
+Q+----+------------+-------+---+---+--------------------------------------------+
+e| 4  | 2023-01-31 | 12:00 | [104m [0m | [102m [0m |Buy book                                    |
+
+R+----+------------+-------+---+---+--------------------------------------------+
+2Input an action (add, print, edit, delete, end):
+> end
+Tasklist exiting!
